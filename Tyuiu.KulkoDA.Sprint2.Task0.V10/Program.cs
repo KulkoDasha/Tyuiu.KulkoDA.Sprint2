@@ -38,6 +38,7 @@ namespace Tyuiu.KulkoDA.Sprint2.Task0.V10
             }
             
             Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }
