@@ -31,6 +31,8 @@ namespace Tyuiu.KulkoDA.Sprint2.Task2.V3
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.CheckDotInShadedArea(x, y));
             Console.ReadLine();
+            Console.ReadLine();
+
         }
     }
 }
