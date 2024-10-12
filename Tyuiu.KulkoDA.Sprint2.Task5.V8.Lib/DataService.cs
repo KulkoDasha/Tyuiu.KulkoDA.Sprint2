@@ -10,76 +10,76 @@ namespace Tyuiu.KulkoDA.Sprint2.Task5.V8.Lib
             {
                 case 1:
                     if (m >= 2)
-                        res =(m - 1) + "."+ 01;
+                        res =(m - 1) + "."+ "01";
                     else
-                        res = 31+"."+01;
+                        res = 31+"."+ "01";
                     break;
 
                 case 2:
                     if (m >= 2)
-                        res = (m - 1) + "." + 02;
+                        res = (m - 1) + "." + "02";
                     else
-                        res = 31 + "." + 01;
+                        res = 31 + "." + "01";
                     break;
                 case 3:
                     if (m >= 2)
-                        res = (m - 1) + "." + 03;
+                        res = (m - 1) + "." + "03";
                     else
-                        res = 28 + "." + 02;
+                        res = 28 + "." + "02";
                     break;
                 case 4:
                     if (m >= 2)
-                        res = (m - 1) + "." + 04;
+                        res = (m - 1) + "." + "04";
                     else
-                        res = 31 + "." + 03;
+                        res = 31 + "." + "03";
                     break;
                 case 5:
                     if (m >= 2)
-                        res = (m - 1) + "." + 05;
+                        res = (m - 1) + "." + "05";
                     else
-                        res = 30 + "." + 04;
+                        res = 30 + "." + "04";
                     break;
                 case 6:
                     if (m >= 2)
-                        res = (m - 1) + "." + 06;
+                        res = (m - 1) + "." + "06";
                     else
-                        res = 31 + "." + 05;
+                        res = 31 + "." + "05";
                     break;
                 case 7:
                     if (m >= 2)
-                        res = (m - 1) + "." + 07;
+                        res = (m - 1) + "." + "07";
                     else
-                        res = 30 + "." + 06;
+                        res = 30 + "." + "06";
                     break;
                 case 8:
                     if (m >= 2)
-                        res = ((m - 1) + "." + 08);
+                        res = ((m - 1) + "." + "08");
                     else
-                        res = 31 + "." + 07;
+                        res = 31 + "." + "07";
                     break;
                 case 9:
                     if (m >= 2)
-                        res = (m - 1) + "." + 09;
+                        res = (m - 1) + "." + "09";
                     else
-                        res = 31 + "." + 08;
+                        res = 31 + "." + "08";
                     break;
                 case 10:
                     if (m >= 2)
-                        res = (m - 1) + "." + 10;
+                        res = (m - 1) + "." + "10";
                     else
-                        res = 30 + "." + 09;
+                        res = 30 + "." + "09";
                     break;
                 case 11:
                     if (m >= 2)
-                        res = (m - 1) + "." + 11;
+                        res = (m - 1) + "." + "11";
                     else
-                       res = 31 + "." + 10;
+                       res = 31 + "." + "10";
                     break;
                 case 12:
                     if (m >= 2)
-                        res = ((m - 1) + "." + 12);
+                        res = ((m - 1) + "." + "12");
                     else
-                        res = 30+"."+11;
+                        res = 30+"."+"11";
                     break;
                 default:
                     throw new ArgumentException($"Месяц должен быть от 1 до 12. Значение{n}");
