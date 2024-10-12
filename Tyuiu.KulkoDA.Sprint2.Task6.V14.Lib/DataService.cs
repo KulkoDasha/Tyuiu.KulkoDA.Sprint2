@@ -10,13 +10,13 @@ namespace Tyuiu.KulkoDA.Sprint2.Task6.V14.Lib
             {
                 switch (k % 7)
                 {
-                    case 1: return "1";
-                    case 2: return "2";
-                    case 3: return "3";
-                    case 4: return "4";
-                    case 5: return "5";
-                    case 6: return "6";
-                    case 0: return "7";
+                    case 1: return "Понедельник";
+                    case 2: return "Вторник";
+                    case 3: return "Среда";
+                    case 4: return "Четверг";
+                    case 5: return "Пятница";
+                    case 6: return "Суббота";
+                    case 0: return "Воскресенье";
                     default: throw new ArgumentException("Неправильно введен месяц");
                 }
             }
@@ -24,13 +24,13 @@ namespace Tyuiu.KulkoDA.Sprint2.Task6.V14.Lib
             {
                 switch (k % 7)
                 {
-                    case 1: return "2";
-                    case 2: return "3";
-                    case 3: return "4";
-                    case 4: return "5";
-                    case 5: return "6";
-                    case 6: return "7";
-                    case 0: return "1";
+                    case 1: return "Вторник";
+                    case 2: return "Среда";
+                    case 3: return "Четверг";
+                    case 4: return "Пятница";
+                    case 5: return "Суббота";
+                    case 6: return "Воскресенье";
+                    case 0: return "Понедельник";
                     default: throw new ArgumentException("Неправильно введен месяц");
                 }
             }
@@ -38,13 +38,13 @@ namespace Tyuiu.KulkoDA.Sprint2.Task6.V14.Lib
             {
                 switch (k % 7)
                 {
-                    case 1: return "3";
-                    case 2: return "4";
-                    case 3: return "5";
-                    case 4: return "6";
-                    case 5: return "7";
-                    case 6: return "1";
-                    case 0: return "2";
+                    case 1: return "Среда";
+                    case 2: return "Четверг";
+                    case 3: return "Пятница";
+                    case 4: return "Суббота";
+                    case 5: return "Воскресенье";
+                    case 6: return "Понедельник";
+                    case 0: return "Вторник";
                     default: throw new ArgumentException("Неправильно введен месяц");
                 }
             }
@@ -52,13 +52,13 @@ namespace Tyuiu.KulkoDA.Sprint2.Task6.V14.Lib
             {
                 switch (k % 7)
                 {
-                    case 1: return "4";
-                    case 2: return "5";
-                    case 3: return "6";
-                    case 4: return "7";
-                    case 5: return "1";
-                    case 6: return "2";
-                    case 0: return "3";
+                    case 1: return "Четверг";
+                    case 2: return "Пятница";
+                    case 3: return "Суббота";
+                    case 4: return "Воскресенье";
+                    case 5: return "Понедельник";
+                    case 6: return "Вторник";
+                    case 0: return "Среда";
                     default: throw new ArgumentException("Неправильно введен месяц");
                 }
             }
@@ -66,13 +66,13 @@ namespace Tyuiu.KulkoDA.Sprint2.Task6.V14.Lib
             {
                 switch (k % 7)
                 {
-                    case 1: return "5";
-                    case 2: return "6";
-                    case 3: return "7";
-                    case 4: return "1";
-                    case 5: return "2";
-                    case 6: return "3";
-                    case 0: return "4";
+                    case 1: return "Пятница";
+                    case 2: return "Суббота";
+                    case 3: return "Воскресенье";
+                    case 4: return "Понедельник";
+                    case 5: return "Вторник";
+                    case 6: return "Среда";
+                    case 0: return "Четверг";
                     default: throw new ArgumentException("Неправильно введен месяц");
                 }
             }
@@ -80,13 +80,13 @@ namespace Tyuiu.KulkoDA.Sprint2.Task6.V14.Lib
             {
                 switch (k % 7)
                 {
-                    case 1: return "6";
-                    case 2: return "7";
-                    case 3: return "1";
-                    case 4: return "2";
-                    case 5: return "3";
-                    case 6: return "4";
-                    case 0: return "5";
+                    case 1: return "Суббота";
+                    case 2: return "Воскресенье";
+                    case 3: return "Понедельник";
+                    case 4: return "Вторник";
+                    case 5: return "Среда";
+                    case 6: return "Четверг";
+                    case 0: return "Пятница";
                     default: throw new ArgumentException("Неправильно введен месяц");
                 }
             }
@@ -94,13 +94,13 @@ namespace Tyuiu.KulkoDA.Sprint2.Task6.V14.Lib
             {
                 switch (k % 7)
                 {
-                    case 1: return "7";
-                    case 2: return "1";
-                    case 3: return "2";
-                    case 4: return "3";
-                    case 5: return "4";
-                    case 6: return "5";
-                    case 0: return "6";
+                    case 1: return "Воскресенье";
+                    case 2: return "Понедельник";
+                    case 3: return "Вторник";
+                    case 4: return "Среда";
+                    case 5: return "Четверг";
+                    case 6: return "Пятница";
+                    case 0: return "Суббота";
                     default: throw new ArgumentException("Неправильно введен месяц");
                 }
             }

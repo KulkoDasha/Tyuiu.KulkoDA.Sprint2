@@ -11,7 +11,7 @@ namespace Tyuiu.KulkoDA.Sprint2.Task6.V14.Test
             int d = 3;
             int k = 1;
             var res = ds.FindDayName(d, k);
-            Assert.AreEqual("3", res);
+            Assert.AreEqual("Среда", res);
         }
     }
 }
