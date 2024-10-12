@@ -11,7 +11,7 @@ namespace Tyuiu.KulkoDA.Sprint2.Task5.V8.Test
             int n = 11;
             int m = 4;
             var res = ds.FindDateOfPreviousDay(m,n);
-            Assert.AreEqual(10 +" Апреля", res);
+            Assert.AreEqual(10 +"."+ 04, res);
         }
     }
 }
